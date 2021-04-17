@@ -2,7 +2,7 @@ name: Diego CI
 
 on:
   push:
-    branches: [ feat/* ]
+    branches: [ main , feat/*]
   pull_request:
     branches: [ main ]
 
